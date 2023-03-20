@@ -7,8 +7,8 @@ function extractNetlifySiteFromContext(context) {
 
 const handler = async (event, context) => {
   try {
-    console.log('context', context)
-    // const parsedContext = extractNetlifySiteFromContext(context)
+    const parsedContext = extractNetlifySiteFromContext(context)
+    console.log('parsed context 🎯', parsedContext)
     console.log('hello queryStringParameters 👋🏻', event.queryStringParameters)
     const subject = event.queryStringParameters.name || 'World'
     return {

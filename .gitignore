@@ -29,3 +29,6 @@ coverage
 
 # Local Netlify folder
 .netlify
+
+localhost.pem
+localhost-key.pem

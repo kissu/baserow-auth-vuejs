@@ -1,0 +1,12 @@
+[build.environment]
+  NODE_VERSION = "18"
+
+[dev]
+  # more info here: https://docs.netlify.com/configure-builds/file-based-configuration/#netlify-dev
+  command = "pnpm dev"
+  functionsPort = 3000 # netlify functions
+  targetPort = 7000
+  framework = "#custom"
+  [dev.https]
+    certFile = "localhost.pem" # path to the certificate file
+    keyFile = "localhost-key.pem" # path to the private key file

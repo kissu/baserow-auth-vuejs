@@ -32,3 +32,4 @@ coverage
 
 localhost.pem
 localhost-key.pem
+.env

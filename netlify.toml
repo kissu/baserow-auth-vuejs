@@ -13,4 +13,4 @@
     #keyFile = "localhost-key.pem" # path to the private key file
 
 [[plugins]]
-  package = "@netlify/plugin-functions-install-core"
+package = "@netlify/plugin-functions-install-core"

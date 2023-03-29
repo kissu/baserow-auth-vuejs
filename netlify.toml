@@ -1,6 +1,9 @@
 [build.environment]
   NODE_VERSION = "18"
 
+[[plugins]]
+  package = "@netlify/plugin-functions-install-core"
+
 [dev]
   # more info here: https://docs.netlify.com/configure-builds/file-based-configuration/#netlify-dev
   command = "pnpm dev"
@@ -11,6 +14,3 @@
   #[dev.https]
     #certFile = "localhost.pem" # path to the certificate file
     #keyFile = "localhost-key.pem" # path to the private key file
-
-[[plugins]]
-package = "@netlify/plugin-functions-install-core"

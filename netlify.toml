@@ -11,6 +11,3 @@
   #[dev.https]
     #certFile = "localhost.pem" # path to the certificate file
     #keyFile = "localhost-key.pem" # path to the private key file
-
-[[plugins]]
-  package = "@netlify/plugin-functions-install-core"

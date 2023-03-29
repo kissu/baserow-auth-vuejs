@@ -1,9 +1,6 @@
 [build.environment]
   NODE_VERSION = "18"
 
-[[plugins]]
-  package = "@netlify/plugin-functions-install-core"
-
 [dev]
   # more info here: https://docs.netlify.com/configure-builds/file-based-configuration/#netlify-dev
   command = "pnpm dev"
